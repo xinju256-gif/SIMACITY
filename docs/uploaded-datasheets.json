@@ -1,0 +1,113 @@
+[
+  {
+    "title": "M2202 规格书",
+    "titleEn": "M2202 datasheet",
+    "url": "/documents/m2202-datasheet.pdf",
+    "language": "中文 / Chinese",
+    "revision": "V1.0.0",
+    "bytes": 8847625,
+    "sha256": "e574b2a14398d33bb106c948bd0656c66dec041767a6e10c1f29a2ba36aca11f",
+    "sourceFile": "M2202 数据手册_V1.0.0_CN两通道混合信号处理SIP电路.pdf",
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "title": "MD2686 规格书",
+    "titleEn": "MD2686 datasheet",
+    "url": "/documents/md2686-datasheet.pdf",
+    "language": "中文 / Chinese",
+    "revision": "",
+    "bytes": 357179,
+    "sha256": "8935e491e156e2edc553bb48d90a055de7ed19d9c99a9a603d6f2afbb6588123",
+    "sourceFile": "MD2686-SIMACITY.pdf",
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "title": "MD2689 规格书",
+    "titleEn": "MD2689 datasheet",
+    "url": "/documents/md2689-datasheet.pdf",
+    "language": "中文 / Chinese",
+    "revision": "",
+    "bytes": 238786,
+    "sha256": "29e6407de69726749605c353855eb374e9f6c0efdac5d0050ea0d50567953d98",
+    "sourceFile": "MD2689-SIMACITY.pdf",
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "title": "XJ1302 规格书",
+    "titleEn": "XJ1302 datasheet",
+    "url": "/documents/xj1302-datasheet.pdf",
+    "language": "中文 / Chinese",
+    "revision": "",
+    "bytes": 919405,
+    "sha256": "ee3a043eef396e21c391d27c0fd4d15278fdd4253914c4c67acdf2944f04ac7a",
+    "sourceFile": "XJ1302-SIMACITY.pdf",
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "title": "XJ485 规格书",
+    "titleEn": "XJ485 datasheet",
+    "url": "/documents/xj485-datasheet.pdf",
+    "language": "中文 / Chinese",
+    "revision": "",
+    "bytes": 1583081,
+    "sha256": "5ee9b9fc71d91869965e4c0e915e4635f31b20c00a6e2102f070b77a0d8d8d53",
+    "sourceFile": "XJ485-SIMACITY.pdf",
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "title": "XJDM11 规格书",
+    "titleEn": "XJDM11 datasheet",
+    "url": "/documents/xjdm11-datasheet.pdf",
+    "language": "中文 / Chinese",
+    "revision": "V1.0",
+    "bytes": 1249001,
+    "sha256": "65514bac8da711ca89b8b07545af1146c22ccbe838eb61c67f1cdb805d9a57ef",
+    "sourceFile": "XJDM11温湿度传感器模块.pdf",
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "title": "XJDM2 规格书",
+    "titleEn": "XJDM2 datasheet",
+    "url": "/documents/xjdm2-datasheet.pdf",
+    "language": "中文 / Chinese",
+    "revision": "V1.1",
+    "bytes": 1348785,
+    "sha256": "ca740706e5ddf7572f82ac8a1efb8a8b93e28270d805d0d181e995cc6935c9db",
+    "sourceFile": "XJDM2除湿器传感器模块.pdf",
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "title": "YT3110 规格书",
+    "titleEn": "YT3110 datasheet",
+    "url": "/documents/yt3110-datasheet.pdf",
+    "language": "中文 / Chinese",
+    "revision": "",
+    "bytes": 3052836,
+    "sha256": "6df6233af29f6209376ec4fc0311200d592ff856db04711035f76291129410fd",
+    "sourceFile": "YT3110-SIMACITY.pdf",
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "title": "产品线信息卡（2020 年历史版本）",
+    "titleEn": "Product line card (2020 archive)",
+    "url": "/documents/simacity-line-card.pdf",
+    "language": "中文 / Chinese",
+    "revision": "Revision 6.12 · May 2020",
+    "bytes": 116626,
+    "sha256": "c278bbfc16bbf53f13a218c7ad89505db4cfa17aec1787d983a39496a60e1a39",
+    "sourceFile": "产品信息卡-芯聚电子  Revision 6.12.pdf",
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "title": "XJDM20w2B 对应手册 · XJ-JM-GD-GXHT-V1.1",
+    "titleEn": "XJDM20w2B reference datasheet · XJ-JM-GD-GXHT-V1.1",
+    "url": "/documents/xjdm20w2b-datasheet.pdf",
+    "language": "中文 / Chinese",
+    "revision": "封面 V1.0 / 正文 V1.1",
+    "sourceFile": "XJ-JM-GD-GXHT-V1.1温湿度传感器模块.pdf",
+    "modelMapping": "User-confirmed: XJDM20w2B = XJ-JM-GD-GXHT-V1.1",
+    "bytes": 811997,
+    "sha256": "7a5e5c5e1d77b78c297ea2a077be652714d6fa343d55a8fbc00141c72865ce0d",
+    "checkedAt": "2026-11-05"
+  }
+]

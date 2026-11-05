@@ -1,0 +1,429 @@
+[
+  {
+    "label": "SiTime",
+    "file": "/brands/sitime.png",
+    "sha256": "0e18fb10bce035c4709bea3c5dcebe412250946b80ed4750ef68032aca5625ce",
+    "workbook_image": "xl/media/image1.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "Taitien / 泰艺",
+    "file": "/brands/taitien.png",
+    "sha256": "d20920d824c1a334c511c57a3ed6708f64de87f5ed04b94676ab54e75c1ff1e3",
+    "workbook_image": "xl/media/image2.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "KDS",
+    "file": "/brands/kds.png",
+    "sha256": "dffa298fa1d2556628674558c7b07340c69d4ee4dee3141a6d777f18262e9094",
+    "workbook_image": "xl/media/image3.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "泰晶",
+    "file": "/brands/tkd.png",
+    "sha256": "269ad367ce4c7adebe27a26894cce74e544f598fc6dee07da2f776610339c4ac",
+    "workbook_image": "xl/media/image4.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "Firecomms / 飞尔康",
+    "file": "/brands/firecomms.png",
+    "sha256": "18f6e180e9a35b7ddb300e0ee72f677067cad2f22b55fa132d4363f24fe9d864",
+    "workbook_image": "xl/media/image5.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "优达",
+    "file": "/brands/youda.png",
+    "sha256": "645463b5bf56e44dc447f9a020609284e56dd15dc011500f723ee25afcc690d5",
+    "workbook_image": "xl/media/image6.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "兆易创新 / GigaDevice",
+    "file": "/brands/gigadevice.png",
+    "sha256": "f650faa8bf6f4347372ce219e49576ead48c885813b20cfe62ac2f9480517b66",
+    "workbook_image": "xl/media/image7.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "佰维 / Biwin",
+    "file": "/brands/biwin.png",
+    "sha256": "0ae46c4285da6b926e0674f9476d99ab44a485b6fabf9e286f75d0418069e47e",
+    "workbook_image": "xl/media/image8.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "新諦",
+    "file": "/brands/xindi.png",
+    "sha256": "9db34d1dfeea97488be51a78e4637f9a7c4c30f4327f10950a8b9d1d02ca7470",
+    "workbook_image": "xl/media/image43.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "槟城电子",
+    "file": "/brands/bencent.jpeg",
+    "sha256": "d2bff19e9bd0470b65b4b49f7a2d655c8f4828409184b3223ddfbfbd8aacadcd",
+    "workbook_image": "xl/media/image9.jpeg",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "捷捷微",
+    "file": "/brands/jiejie.png",
+    "sha256": "665d817a88e7315805a3d2ee50e7d41ce88f9e9ba8ad69b11bedffd9d4140786",
+    "workbook_image": "xl/media/image10.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "SIMACITY",
+    "file": "/brands/simacity.png",
+    "sha256": "6f723176bd262d3ea2f45d485003d7b64d41b5c403cd6b070ab70ec0f91db703",
+    "workbook_image": "xl/media/image36.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "XJDM2 温湿度传感器模块",
+    "file": "/products/xjdm2.png",
+    "sha256": "1b00c1e1317add1750b240e7370aa34a5c44729839363aa924f88eed2b8c1ccd",
+    "workbook_image": "xl/media/image54.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "XJDM11 温湿度传感器模块",
+    "file": "/products/xjdm11.png",
+    "sha256": "1777c3c1c26f320bd4811ac48e896bba457ac3a81a5b5800c689367682f72574",
+    "workbook_image": "xl/media/image55.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "M2202 两通道混合信号处理 SIP 电路",
+    "file": "/products/m2202.jpeg",
+    "sha256": "b473268d356ee47da71c4a7ff6d5d8c5023316d231386bf407fa19d5887bbb5c",
+    "workbook_image": "xl/media/image56.jpeg",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "15W 带扬声器保护功能的\n免滤波器 D 类音频功率放大器",
+    "file": "/products/yt3110.jpeg",
+    "sha256": "32e9f557875ed2e709d767f3fe6eb072e0c8b6ccc4b5fff24199aa637c5577bb",
+    "workbook_image": "xl/media/image58.jpeg",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "MD2686马达驱动电路",
+    "file": "/products/md2686.jpeg",
+    "sha256": "94d30016f7ddb86dac1277c678546a10752fa8043093cadd01fdf3a29636e839",
+    "workbook_image": "xl/media/image57.jpeg",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "低功耗 RS-485/RS-422 收发器",
+    "file": "/products/xj485.jpeg",
+    "sha256": "b167456cb2a59ee4862b3d723face71d95f1b5dcad5dae200e7325993633025c",
+    "workbook_image": "xl/media/image59.jpeg",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "XJDM20w2B",
+    "file": "/products/xjdm20w2b.jpeg",
+    "sha256": "cdb6f624a167e2a206738ef32b05a95f79f66c8eb4def0939d199d0933bbd757",
+    "workbook_image": "xl/media/image60.jpeg",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "温湿度探头线束",
+    "file": "/products/probe.jpeg",
+    "sha256": "19dde324a9e39a9010869eb45be352effdfb9c10214d307b11b15c9780a8f59e",
+    "workbook_image": "xl/media/image61.jpeg",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "圣邦微",
+    "file": "/brands/sgmicro.png",
+    "sha256": "da5cadf1b144d6530eb296baffac2900a6081bd2bc7a754ef521f4d1f93df301",
+    "workbook_image": "xl/media/image11.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "芯海科技",
+    "file": "/brands/chipsea.png",
+    "sha256": "81b7baa02b1031c420f14be9fd26a8f51286c425f042cffd78a9d7a2b99fd728",
+    "workbook_image": "xl/media/image12.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "台湾晶技 / TXC",
+    "file": "/brands/txc.png",
+    "sha256": "f4bb15b48fca5184cdad419b28860e6ee17c55c26e4243688b49dfed9a4d7df5",
+    "workbook_image": "xl/media/image13.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "华润微",
+    "file": "/brands/crm.png",
+    "sha256": "228cbdf843aae2fab018dd2b3fe6e94cd5568b2343792dead1347689a0a71ef4",
+    "workbook_image": "xl/media/image14.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "顺络 / Sunlord",
+    "file": "/brands/sunlord.png",
+    "sha256": "6596007dd67a2efbccaa3c816a5d5820ee47fc1a141dc2009f259bb5739e2fd4",
+    "workbook_image": "xl/media/image15.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "英集芯 / INJOINIC",
+    "file": "/brands/injoinic.png",
+    "sha256": "a4f9b4d70b8b80665e17d194b1ac86c10bface69847022467637d11135560499",
+    "workbook_image": "xl/media/image16.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "思远",
+    "file": "/brands/siyuan.png",
+    "sha256": "53b7dcdfa2074b44a95b39d75770debdf14ef95597fe6b7f414ef0331fa3cc61",
+    "workbook_image": "xl/media/image17.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "劲芯微",
+    "file": "/brands/jingxin.png",
+    "sha256": "fbcee49aa5a3bc6ad7b840270fdfa855b03eb950a95ff45d1f85a0f8c41e2d93",
+    "workbook_image": "xl/media/image18.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "普林芯驰",
+    "file": "/brands/pulin.png",
+    "sha256": "4e6b0f83be6e349e79737e00ea622a56cd11db65c838234a1bca425cfdbae3e8",
+    "workbook_image": "xl/media/image19.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "敏芯股份",
+    "file": "/brands/memsensing.png",
+    "sha256": "008030b0a97a8ec3a3fc29b65b23d8bd0764b40c7fb9355c504919c38601d499",
+    "workbook_image": "xl/media/image20.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "芯导科技",
+    "file": "/brands/prisemi.png",
+    "sha256": "c91a99ba6c98a380bc170ee12c225e094ef5a966acaa324abf6d4c13eaa9e05f",
+    "workbook_image": "xl/media/image21.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "镓未来",
+    "file": "/brands/ganfuture.png",
+    "sha256": "acc89c72356f53a3647b337138ea53dfa79690deb5bc19d9a477edfa74278e64",
+    "workbook_image": "xl/media/image22.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "钰泰",
+    "file": "/brands/eta.png",
+    "sha256": "72b23d8b4c8dc312483213d7cbfae0e6593fe11e7bc9f9b713d55751af901f03",
+    "workbook_image": "xl/media/image23.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "岑科电感",
+    "file": "/brands/cenker.png",
+    "sha256": "26c9a3f0fdafc1e1b2b66de1e3bca6a5297cb6ac4d952ec43a9b87ff257a873e",
+    "workbook_image": "xl/media/image24.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "泰科天润",
+    "file": "/brands/globalpower.png",
+    "sha256": "a55e3b4443936aef8e255f6fc511c9c4025fa7890a90480f657265cfd3588173",
+    "workbook_image": "xl/media/image25.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "拓尔微",
+    "file": "/brands/tuoer.png",
+    "sha256": "6074c8acfdf042b95b3ec0ccc7394537acc6770d233e32985e16a889bcb04ecb",
+    "workbook_image": "xl/media/image26.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "普罗森美",
+    "file": "/brands/prosemi.png",
+    "sha256": "91377ff0da2310eac85539b1ea24ef32ba76210d5f8c7a2b4a80a8da64e6cf54",
+    "workbook_image": "xl/media/image27.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "沃尔德 / World",
+    "file": "/brands/world.png",
+    "sha256": "f339c8fce62182aea0e1972ac069a97363ff255633c6c66a5786337134c93ca8",
+    "workbook_image": "xl/media/image28.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "茂睿芯",
+    "file": "/brands/meraki.png",
+    "sha256": "dc6bc2d5515cef12ce222683aa7065d0ebc5a6a8da2ee8352d66a88168992ea1",
+    "workbook_image": "xl/media/image29.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "永铭",
+    "file": "/brands/ymin.png",
+    "sha256": "9a58afd921b4b4bbff606784391f3834720204ffc433ad641350011ec67c3f1e",
+    "workbook_image": "xl/media/image30.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "物奇",
+    "file": "/brands/wuqi.png",
+    "sha256": "b31f1d2cf90f2cc3dccdc6e7cfd83c48d856ef86e769292da4cee055757151eb",
+    "workbook_image": "xl/media/image31.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "声加",
+    "file": "/brands/shengjia.png",
+    "sha256": "4a0e83af887b22d79573505c2f2a799b76e329fde9000780e15cc7bd45d203a0",
+    "workbook_image": "xl/media/image32.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "灿瑞",
+    "file": "/brands/orientchip.png",
+    "sha256": "a9a3e73353ec44ed0ffffb20b2e23a59225e3807ae0a1a4d22e7bddc930f730f",
+    "workbook_image": "xl/media/image33.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "欧度 / ODU",
+    "file": "/brands/odu.png",
+    "sha256": "5d4be393a3cca6028fb25006efff9b4125e63ed75a7b7f4c53c3d911888f8ff5",
+    "workbook_image": "xl/media/image34.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "科特翎",
+    "file": "/brands/keteling.png",
+    "sha256": "d05e59158c8fecf2ac0fe351d3a5b2c8c71aad947adfbc98414f293c8e200db9",
+    "workbook_image": "xl/media/image35.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "兴威帆",
+    "file": "/brands/xingweifan.png",
+    "sha256": "85373fea35c6a23d2bad87f3f68a4178183fe65c1b81f1396bf8ecf1df1ab7e1",
+    "workbook_image": "xl/media/image37.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "捷拓",
+    "file": "/brands/jietuo.png",
+    "sha256": "274d9fca7b6fc5b27f1f41f7b93075381408bd3b4d8e83486f76f19e8219bf80",
+    "workbook_image": "xl/media/image38.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "友顺 / UTC",
+    "file": "/brands/utc.png",
+    "sha256": "5e8a022f50383e4bbeb895bea80c26c5e3b140b1f31f1e1707a220b56e8fe74e",
+    "workbook_image": "xl/media/image39.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "三莹",
+    "file": "/brands/sanying.png",
+    "sha256": "632bec802ed7e63c6cf7cb99e622bf4b52eece8d6bf4e430b419da15fcf11af3",
+    "workbook_image": "xl/media/image40.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "领亚智能",
+    "file": "/brands/lingya.png",
+    "sha256": "09a787e9bcbd16be25bee6e7dbf22d438966e69b969b244f9512e93d0c0ba4a0",
+    "workbook_image": "xl/media/image41.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "派恩杰",
+    "file": "/brands/panej.png",
+    "sha256": "d425a8ed7ebb711e620d84333ea6f6559d06811afb86bbe463f6611cff76808c",
+    "workbook_image": "xl/media/image42.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "芯洲",
+    "file": "/brands/sct.png",
+    "sha256": "369ef4171992956a26e3b725b826914abcf512aeee1c13607ffc0a19817b88c1",
+    "workbook_image": "xl/media/image44.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "中科银河芯",
+    "file": "/brands/galaxy.png",
+    "sha256": "512b7baa379d82f73e9d5272a31964406f0f5cd3f106b47829f6816d02ff7479",
+    "workbook_image": "xl/media/image46.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "普冉",
+    "file": "/brands/puya.png",
+    "sha256": "280830a51d991efc8731b2a13176c377faae27e09b7804bbacff89802196feac",
+    "workbook_image": "xl/media/image45.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "智芯微",
+    "file": "/brands/zhixin.png",
+    "sha256": "093f5e32697cb5357d42175cb9d2d813485cd179df831baef379d9a861b03c7d",
+    "workbook_image": "xl/media/image50.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "联影微",
+    "file": "/brands/unitedimaging.png",
+    "sha256": "906426d32648b8763c3c5f9dad19e23a3ae96ebc9ae548d7af321ae2beb2d2ad",
+    "workbook_image": "xl/media/image48.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "毂梁微",
+    "file": "/brands/guliang.png",
+    "sha256": "d9fbc11541c673348849914f2cab62e1597b2161f23602b3a1f68c410ad4ceb0",
+    "workbook_image": "xl/media/image47.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "东华电力",
+    "file": "/brands/donghua.png",
+    "sha256": "7ef35da782042cd754c93f1729a8fbc19745a6852fb1304e48b6cd5288d6ade5",
+    "workbook_image": "xl/media/image49.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "源拓光电",
+    "file": "/brands/yuantuo.png",
+    "sha256": "834e6036107d034f3909fea740f7b22e66cf7f54964840826bbcd17c2fe3c33c",
+    "workbook_image": "xl/media/image52.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "美格",
+    "file": "/brands/meig.png",
+    "sha256": "6dd95dc45e568bf015e4a3e820f097b34b8a1a849f9b87715cee114090f69510",
+    "workbook_image": "xl/media/image51.png",
+    "matched_uploaded_workbook": true
+  },
+  {
+    "label": "海力士",
+    "file": "/brands/hynix.png",
+    "sha256": "c8ba8ca17d043d614549ec10ce5f96ef77e6b49d4357336d433a9f72a0fb08b9",
+    "workbook_image": "xl/media/image53.png",
+    "matched_uploaded_workbook": true
+  }
+]

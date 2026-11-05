@@ -1,0 +1,289 @@
+[
+  {
+    "source": "灿瑞.jpg",
+    "kind": "brand",
+    "id": "orientchip",
+    "destination": "/brands/orientchip.jpg",
+    "sha256": "f94d3745dabea1fbd3de1cd4f03aa046d00bf0cc36d513bf386283870cb5f73a"
+  },
+  {
+    "source": "优达.jpg",
+    "kind": "brand",
+    "id": "youda",
+    "destination": "/brands/youda.jpg",
+    "sha256": "ffe77871cb5370da5f6220867c0ad29ee9db443cf45578bac96a198ea58e6d2c"
+  },
+  {
+    "source": "丘钛科技.png",
+    "kind": "customer",
+    "id": "qtech",
+    "destination": "/brands/customer-qtech.png",
+    "sha256": "40f5fe15978f70f958bf4bda5769207fc9f508d5b30c6f3892a58cf909393d17"
+  },
+  {
+    "source": "泰科天润.png",
+    "kind": "brand",
+    "id": "globalpower",
+    "destination": "/brands/globalpower.png",
+    "sha256": "fff39eb7a3b44f2a91489436d98e261657174215532f616358766aa374551cb6"
+  },
+  {
+    "source": "KDS.jpg",
+    "kind": "brand",
+    "id": "kds",
+    "destination": "/brands/kds.jpg",
+    "sha256": "dbbf053f7ba1537d144822b091f6412dd23c02124c0695d7dc37e2d36c086966"
+  },
+  {
+    "source": "泰晶.jpg",
+    "kind": "brand",
+    "id": "tkd",
+    "destination": "/brands/tkd.jpg",
+    "sha256": "b78c4a920cacc7ae24ade32db5ce07778e50b3544e1b1fa402fbbd2ed27b3545"
+  },
+  {
+    "source": "sitime.jpg",
+    "kind": "brand",
+    "id": "sitime",
+    "destination": "/brands/sitime.jpg",
+    "sha256": "8c17c5e19b8871db155ef2ed867e80a1363f869e5d4c994bf4c3c3fca4cb1455"
+  },
+  {
+    "source": "联影微.png",
+    "kind": "brand",
+    "id": "unitedimaging",
+    "destination": "/brands/unitedimaging.png",
+    "sha256": "87985ae1b2959d520b9e10063b45df08e3e71baafcd50b5c5e24b5f664db36c5"
+  },
+  {
+    "source": "佰维.jpg",
+    "kind": "brand",
+    "id": "biwin",
+    "destination": "/brands/biwin.jpg",
+    "sha256": "f0cb24799f488e855404ce294542473703b797a8837628a6efb9ed053c76b39b"
+  },
+  {
+    "source": "芯洲科技.png",
+    "kind": "brand",
+    "id": "sct",
+    "destination": "/brands/sct.png",
+    "sha256": "025d8e92f6f1c23ee3d3630de7891505733f4bae2c38d76ad55ed13f213b8882"
+  },
+  {
+    "source": "祥生医疗.png",
+    "kind": "customer",
+    "id": "chison",
+    "destination": "/brands/customer-chison.png",
+    "sha256": "2e502ee18b35f18e578f11b5b4e589fd1541059dc8e6077423b896fa0ec15f5d"
+  },
+  {
+    "source": "兆易创新.jpg",
+    "kind": "brand",
+    "id": "gigadevice",
+    "destination": "/brands/gigadevice.jpg",
+    "sha256": "93304b6bbcaea0f656630cf342bc3bd1ed806c5c8a636a11bb3842edba69b5a8"
+  },
+  {
+    "source": "普冉.png",
+    "kind": "brand",
+    "id": "puya",
+    "destination": "/brands/puya.png",
+    "sha256": "e03c53c22a5d1b94122ad0e35e61152154d106139f1b464211f470ad902c38ab"
+  },
+  {
+    "source": "中科银河芯.png",
+    "kind": "brand",
+    "id": "galaxy",
+    "destination": "/brands/galaxy.png",
+    "sha256": "2d37bc5ac1cedc6e777c9fedd966141dfd47f2837797735605630ea7d416b251"
+  },
+  {
+    "source": "派恩杰.jpg",
+    "kind": "brand",
+    "id": "panej",
+    "destination": "/brands/panej.jpg",
+    "sha256": "6b89a1849c8cf94b6cccda35b34a7e63ce5d2da33365dddabd4a7b07d6a10d4f"
+  },
+  {
+    "source": "飞尔康logo.png",
+    "kind": "brand",
+    "id": "firecomms",
+    "destination": "/brands/firecomms.png",
+    "sha256": "7265e08223b96b1663bd687789fdac050b333a6a90e32ab6a7a062efced35566"
+  },
+  {
+    "source": "芯海科技.jpg",
+    "kind": "brand",
+    "id": "chipsea",
+    "destination": "/brands/chipsea.jpg",
+    "sha256": "927e2b289acccd0994d5502816cf4973a7863ba23a26e3c7f9e9cb7b5630318d"
+  },
+  {
+    "source": "大陆汽车.png",
+    "kind": "customer",
+    "id": "continental",
+    "destination": "/brands/customer-continental.png",
+    "sha256": "19b2b02d84bfdd00b65f06f67fd932c8c0b85fefb75e663477e39148b8edcd81"
+  },
+  {
+    "source": "敏芯.jpg",
+    "kind": "brand",
+    "id": "memsensing",
+    "destination": "/brands/memsensing.jpg",
+    "sha256": "95bd3694303dcca5d77e8947c1112f48303e038a49078ef1f07c79daa48c6c02"
+  },
+  {
+    "source": "GE医疗.png",
+    "kind": "customer",
+    "id": "ge",
+    "destination": "/brands/customer-ge.png",
+    "sha256": "b0b04e7a5bad23b7edbc2912c7c1792b48d3d177309c15e13c37f31d898188f5"
+  },
+  {
+    "source": "思远.png",
+    "kind": "brand",
+    "id": "siyuan",
+    "destination": "/brands/siyuan.png",
+    "sha256": "a7374f4cc5ed3fe73f8f87a0832fa6742f8a856e0a366e4c4f2447d82d22d30c"
+  },
+  {
+    "source": "华润微.jpg",
+    "kind": "brand",
+    "id": "crm",
+    "destination": "/brands/crm.jpg",
+    "sha256": "b0e759fd64b574e305565ab8a8001de432979bd6eea7f3b7fe0698e9a5626f58"
+  },
+  {
+    "source": "共模.png",
+    "kind": "brand",
+    "id": "gongmo",
+    "destination": "/brands/gongmo.png",
+    "sha256": "317135694296c0020ad6920586348c392ece474eed1f235e440b203d0c4129b7"
+  },
+  {
+    "source": "捷捷微电.png",
+    "kind": "brand",
+    "id": "jiejie",
+    "destination": "/brands/jiejie.png",
+    "sha256": "e72594ae16fed9c486e1369cc91bc8f28103833f0734bcd34f1fda31998f31ef"
+  },
+  {
+    "source": "芯导科技.png",
+    "kind": "brand",
+    "id": "prisemi",
+    "destination": "/brands/prisemi.png",
+    "sha256": "1693ecb948202ca3b3ac000145e3726fc3c063c891725b3742983992fd33ad81"
+  },
+  {
+    "source": "西门子医疗.png",
+    "kind": "customer",
+    "id": "siemens",
+    "destination": "/brands/customer-siemens.png",
+    "sha256": "f448d91874456b7278bc8a9abd8c27dca16c8914987c4555da6f2a4b4aa2ca21"
+  },
+  {
+    "source": "航空电气.png",
+    "kind": "customer",
+    "id": "avic",
+    "destination": "/brands/customer-avic.png",
+    "sha256": "bc50031d8f4494d514d6dd2b3005f75cc2ae16d62bfafb6e571319523c6ff6d6"
+  },
+  {
+    "source": "泰艺电子.png",
+    "kind": "brand",
+    "id": "taitien",
+    "destination": "/brands/taitien.png",
+    "sha256": "89e220974eab2d6e39aecfcb46d5e2634cab4a6045454cbe66d48cda41cad405"
+  },
+  {
+    "source": "茂睿芯.png",
+    "kind": "brand",
+    "id": "meraki",
+    "destination": "/brands/meraki.png",
+    "sha256": "78fd9f9cc217452629143cce0bad2c8029c932803599acc8ef0a539f772427a6"
+  },
+  {
+    "source": "友顺.jpg",
+    "kind": "brand",
+    "id": "utc",
+    "destination": "/brands/utc.jpg",
+    "sha256": "a4837b7303708ef9ab21984fae975a1199153d4aea9fd78495bf46754be25ed7"
+  },
+  {
+    "source": "东华电力电子.png",
+    "kind": "brand",
+    "id": "donghua",
+    "destination": "/brands/donghua.png",
+    "sha256": "97e47eb6324b891686167b99e05c07f2283dbb8c03b2a9bfb04d23da106fc754"
+  },
+  {
+    "source": "小鹏汽车.png",
+    "kind": "customer",
+    "id": "xpeng",
+    "destination": "/brands/customer-xpeng.png",
+    "sha256": "bc8407f9542690a1c7ccc6c52a722f5437bef036eb43f2a3419ee966f5d3fb2a"
+  },
+  {
+    "source": "奕瑞科技.png",
+    "kind": "customer",
+    "id": "iray",
+    "destination": "/brands/customer-iray.png",
+    "sha256": "ae989c5c088e939a6edf1ae8c97670ed2e9ad95bac86ac449d5b8e27c48ba791"
+  },
+  {
+    "source": "拓尔微.png",
+    "kind": "brand",
+    "id": "tuoer",
+    "destination": "/brands/tuoer.png",
+    "sha256": "26c321159dab985c1c41b211fb3a21bddc4fa3d43182031cd2331b9fccc3a7aa"
+  },
+  {
+    "source": "圣邦微.jpg",
+    "kind": "brand",
+    "id": "sgmicro",
+    "destination": "/brands/sgmicro.jpg",
+    "sha256": "1239263cd6bd8976bc5742dcf99adf5dda2e229b6b3c07304bc23f85c7dc5743"
+  },
+  {
+    "source": "岚图汽车.png",
+    "kind": "customer",
+    "id": "voyah",
+    "destination": "/brands/customer-voyah.png",
+    "sha256": "1911391424c0fa4ca696d14ee4cdbafe0f54d32ddf5101240fcd6e88fcbf2ac3"
+  },
+  {
+    "source": "槟城电子.jpg",
+    "kind": "brand",
+    "id": "bencent",
+    "destination": "/brands/bencent.jpg",
+    "sha256": "6de9e109f0b963395107b194593d3e2811bd3bf723a98644b17575ae65a4a517"
+  },
+  {
+    "source": "英集芯.png",
+    "kind": "brand",
+    "id": "injoinic",
+    "destination": "/brands/injoinic.png",
+    "sha256": "98d4084e669e5c64f2f7f5496a8f2002695c5cfc33c5b719efe9e14556c00c88"
+  },
+  {
+    "source": "联影医疗.png",
+    "kind": "customer",
+    "id": "unitedimaging",
+    "destination": "/brands/customer-unitedimaging.png",
+    "sha256": "523c91bbc2572d0204ac28ffdd53bdc08ddab2d0c94a9f8e22b880a0cc0b80ac"
+  },
+  {
+    "source": "源拓光电.jpg",
+    "kind": "brand",
+    "id": "yuantuo",
+    "destination": "/brands/yuantuo.jpg",
+    "sha256": "49989ea31e1d4861de32c38c1e7502bdd0ee156a0524dbed833c487a431f6bf6"
+  },
+  {
+    "source": "钰泰.jpg",
+    "kind": "brand",
+    "id": "eta",
+    "destination": "/brands/eta.jpg",
+    "sha256": "164f57aea12d8aed799f90084461f26dfefbbdd9059f38ce9c172d213b71e4cc"
+  }
+]

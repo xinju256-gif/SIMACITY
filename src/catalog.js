@@ -1,4 +1,4 @@
-// Product-line workbook enriched with public source catalogs. Internal authorization data is excluded.
+// Uploaded product-line, image and datasheet sources.
 export const brands = [
   {
     "id": "sitime",
@@ -15,7 +15,7 @@ export const brands = [
     },
     "products": [],
     "source": "原版",
-    "logo": "/brands/sitime.png",
+    "logo": "/brands/sitime.jpg",
     "families": [
       {
         "zh": "单端与差分晶振",
@@ -45,7 +45,7 @@ export const brands = [
   {
     "id": "taitien",
     "category": "frequency",
-    "name": "Taitien",
+    "name": "Taitien / 泰艺",
     "aliases": "Taitien   （泰艺）",
     "description": {
       "zh": "泰艺电子提供石英晶体与频率控制器件。品牌独立站按无源晶体、晶体振荡器 XO、压控振荡器 VCXO、温补振荡器 TCXO 和恒温振荡器 OCXO 组织产品，并提供频率器件选型与参数说明。",
@@ -142,7 +142,7 @@ export const brands = [
     },
     "products": [],
     "source": "原版",
-    "logo": "/brands/kds.png",
+    "logo": "/brands/kds.jpg",
     "families": [
       {
         "zh": "MHz带晶体谐振器",
@@ -269,7 +269,7 @@ export const brands = [
     },
     "products": [],
     "source": "原版",
-    "logo": "/brands/tkd.png",
+    "logo": "/brands/tkd.jpg",
     "families": [
       {
         "zh": "频控器件",
@@ -293,8 +293,8 @@ export const brands = [
   },
   {
     "id": "firecomms",
-    "category": "connectivity",
-    "name": "Firecomms",
+    "category": "optical",
+    "name": "Firecomms / 飞尔康",
     "aliases": "Firecomms   （飞尔康）",
     "description": {
       "zh": "Firecomms 提供工业光通信器件与塑料光纤连接方案，产品系列包括 OptoLock、LC、RedLink、SMI 与媒体转换器，以及评估套件。品牌独立站支持按系列与型号检索，并提供应用资料。",
@@ -373,12 +373,12 @@ export const brands = [
     ],
     "manufacturerReview": "reviewed-dedicated-site",
     "categories": [
-      "connectivity"
+      "optical"
     ]
   },
   {
     "id": "youda",
-    "category": "protection",
+    "category": "optical",
     "name": "优达",
     "aliases": "优达",
     "description": {
@@ -391,7 +391,7 @@ export const brands = [
     },
     "products": [],
     "source": "原版",
-    "logo": "/brands/youda.png",
+    "logo": "/brands/youda.jpg",
     "families": [
       {
         "zh": "高速与 CMOS 光耦",
@@ -418,7 +418,7 @@ export const brands = [
     "resources": [],
     "sources": [],
     "categories": [
-      "protection"
+      "optical"
     ]
   },
   {
@@ -436,7 +436,7 @@ export const brands = [
     },
     "products": [],
     "source": "原版",
-    "logo": "/brands/gigadevice.png",
+    "logo": "/brands/gigadevice.jpg",
     "families": [
       {
         "zh": "Flash 闪存",
@@ -519,10 +519,7 @@ export const brands = [
       }
     ],
     "categories": [
-      "control",
-      "analog",
-      "sensing",
-      "power"
+      "control"
     ]
   },
   {
@@ -540,7 +537,7 @@ export const brands = [
     },
     "products": [],
     "source": "原版",
-    "logo": "/brands/biwin.png",
+    "logo": "/brands/biwin.jpg",
     "families": [
       {
         "zh": "嵌入式存储",
@@ -620,7 +617,7 @@ export const brands = [
     },
     "products": [],
     "source": "原版",
-    "logo": "/brands/bencent.jpeg",
+    "logo": "/brands/bencent.jpg",
     "families": [
       {
         "zh": "气体放电管 GDT",
@@ -661,7 +658,7 @@ export const brands = [
   {
     "id": "jiejie",
     "category": "power",
-    "name": "捷捷微",
+    "name": "捷捷微电",
     "aliases": "捷捷微",
     "description": {
       "zh": "可控硅、防护器件、金属氧化场效应晶体管、整流二极管与整流桥、功率模块与组件、光耦、电源IC等",
@@ -802,15 +799,15 @@ export const brands = [
         ],
         "documents": [
           {
-            "title": "XJDM2 数据手册",
+            "title": "XJDM2 规格书",
             "titleEn": "XJDM2 datasheet",
             "url": "/documents/xjdm2-datasheet.pdf",
             "language": "中文 / Chinese",
             "revision": "V1.1",
-            "sourceUrl": "https://www.simacity.com/Public/20260407/5f202e33-5dfa-38b7-48ab-4e9dff2531ab/25651_XJDM2%E9%99%A4%E6%B9%BF%E5%99%A8%E4%BC%A0%E6%84%9F%E5%99%A8%E6%A8%A1%E5%9D%97.pdf",
-            "checkedAt": "2026-11-04",
-            "sha256": "20c5179e16ac8cd18ffd7a2956d79de2c3f33be4ab55c9cfa83f2eae73c09ea0",
-            "bytes": 1355327
+            "bytes": 1348785,
+            "sha256": "ca740706e5ddf7572f82ac8a1efb8a8b93e28270d805d0d181e995cc6935c9db",
+            "sourceFile": "XJDM2除湿器传感器模块.pdf",
+            "checkedAt": "2026-11-05"
           }
         ],
         "sourceRows": "自研 2–12",
@@ -928,15 +925,15 @@ export const brands = [
         ],
         "documents": [
           {
-            "title": "XJDM11 数据手册",
+            "title": "XJDM11 规格书",
             "titleEn": "XJDM11 datasheet",
             "url": "/documents/xjdm11-datasheet.pdf",
             "language": "中文 / Chinese",
             "revision": "V1.0",
-            "sourceUrl": "https://www.simacity.com/Public/20260407/d4007e64-5388-555c-124c-3052cb332b5f/97036_XJDM11%E6%B8%A9%E6%B9%BF%E5%BA%A6%E4%BC%A0%E6%84%9F%E5%99%A8%E6%A8%A1%E5%9D%97.pdf",
-            "checkedAt": "2026-11-04",
-            "sha256": "f22c88772becbb045d7fe1198b1f4ab6c549364333d8c8ac9b1cead7e3d98936",
-            "bytes": 1255579
+            "bytes": 1249001,
+            "sha256": "65514bac8da711ca89b8b07545af1146c22ccbe838eb61c67f1cdb805d9a57ef",
+            "sourceFile": "XJDM11温湿度传感器模块.pdf",
+            "checkedAt": "2026-11-05"
           }
         ],
         "sourceRows": "自研 13–27",
@@ -1118,20 +1115,20 @@ export const brands = [
         ],
         "documents": [
           {
-            "title": "M2202 数据手册",
+            "title": "M2202 规格书",
             "titleEn": "M2202 datasheet",
             "url": "/documents/m2202-datasheet.pdf",
             "language": "中文 / Chinese",
-            "revision": "Rev 1.0.0",
-            "sourceUrl": "https://www.simacity.com/Public/20260407/99a6b03e-35ec-0cdd-20b8-8a4cffaaf5e1/56636_%E4%B8%A4%E9%80%9A%E9%81%93%E6%B7%B7%E5%90%88%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86SIP%E7%94%B5%E8%B7%AFM2202.pdf",
-            "checkedAt": "2026-11-04",
-            "sha256": "14ede092c4195d84338c717ca60909547cf0bc3eac666a074644c3dacef4bcdd",
-            "bytes": 6880421
+            "revision": "V1.0.0",
+            "bytes": 8847625,
+            "sha256": "e574b2a14398d33bb106c948bd0656c66dec041767a6e10c1f29a2ba36aca11f",
+            "sourceFile": "M2202 数据手册_V1.0.0_CN两通道混合信号处理SIP电路.pdf",
+            "checkedAt": "2026-11-05"
           }
         ],
         "sourceRows": "自研 28–50",
         "specNotice": false,
-        "category": "analog",
+        "category": "sensing",
         "sourceUrl": "https://www.simacity.com/Home/MyProductsDetail?id=3",
         "parameterSource": "datasheet"
       },
@@ -1209,15 +1206,15 @@ export const brands = [
             "url": "/documents/yt3110-datasheet.pdf",
             "language": "中文 / Chinese",
             "revision": "",
-            "sourceUrl": "https://www.simacity.com/Public/20260409/93922558-abed-941c-bb11-d891a4525f5b/59143_YT3110-SIMACITY.pdf",
-            "checkedAt": "2026-11-04",
-            "sha256": "032c3368132a698d075b8348ec346b374df1fad20092047cecf67916012b040f",
-            "bytes": 3105419
+            "bytes": 3052836,
+            "sha256": "6df6233af29f6209376ec4fc0311200d592ff856db04711035f76291129410fd",
+            "sourceFile": "YT3110-SIMACITY.pdf",
+            "checkedAt": "2026-11-05"
           }
         ],
         "sourceRows": "自研 51–70",
         "specNotice": false,
-        "category": "analog",
+        "category": "power",
         "sourceUrl": "https://www.simacity.com/Home/MyProductsDetail?id=5",
         "parameterSource": "datasheet"
       },
@@ -1295,10 +1292,10 @@ export const brands = [
             "url": "/documents/md2686-datasheet.pdf",
             "language": "中文 / Chinese",
             "revision": "",
-            "sourceUrl": "https://www.simacity.com/Public/20260409/9c25dd82-3385-7e26-862f-a473b77bbee4/34580_MD2686-SIMACITY.pdf",
-            "checkedAt": "2026-11-04",
-            "sha256": "52c9ddda988aa9f939462d78b8e441c2bd1ac7856a0a5a27f560f37497fb35ed",
-            "bytes": 356724
+            "bytes": 357179,
+            "sha256": "8935e491e156e2edc553bb48d90a055de7ed19d9c99a9a603d6f2afbb6588123",
+            "sourceFile": "MD2686-SIMACITY.pdf",
+            "checkedAt": "2026-11-05"
           }
         ],
         "sourceRows": "自研 71–80",
@@ -1309,7 +1306,7 @@ export const brands = [
       },
       {
         "id": "xj485",
-        "name": "低功耗 RS-485/RS-422 收发器",
+        "name": "XJ485 低功耗 RS-485/RS-422 收发器",
         "nameEn": "XJ485 RS-485 / RS-422 transceiver",
         "description": {
           "zh": "上海芯聚电子（SIMACITY）XJ485 RS485 通信收发芯片，是一款高可靠工业级差分总线通信芯片，单芯片集成收发全链路功能，可直接兼容替代市面通用 RS485 型号，适配工业现场长距离抗干扰总线传输场景。\n芯片采用 5V 单电源供电，最高 2.5Mbps 高速通信，支持单总线 256 节点组网，宽温工业级稳定运行，搭配多级总线防护、失效安全接收逻辑、超低静态功耗设计，广泛用于工控总线、传感器组网、机电通信、远程电平传输等场景，兼顾引脚通用性、长期可靠性与整机成本优化。",
@@ -1319,18 +1316,10 @@ export const brands = [
         "specs": [
           {
             "key": {
-              "zh": "通信类型",
-              "en": "Communication type"
+              "zh": "供电",
+              "en": "Supply"
             },
-            "value": "半双工 RS‑485/RS‑422 收发器，单芯片集成驱动器 + 接收器",
-            "valueEn": "Half-duplex RS-485/RS-422; integrated driver and receiver"
-          },
-          {
-            "key": {
-              "zh": "供电电压",
-              "en": "Supply voltage"
-            },
-            "value": "5V 单电源供电",
+            "value": "5 V 单电源",
             "valueEn": "5 V single supply"
           },
           {
@@ -1338,87 +1327,131 @@ export const brands = [
               "zh": "传输速率",
               "en": "Data rate"
             },
-            "value": "最高 2.5Mbps，驱动器摆率无限制",
-            "valueEn": "Up to 2.5 Mbps; unrestricted driver slew rate"
+            "value": "最高 2.5 Mbps",
+            "valueEn": "Up to 2.5 Mbps"
           },
           {
             "key": {
-              "zh": "总线容量",
-              "en": "Bus capacity"
+              "zh": "工作方式",
+              "en": "Mode"
             },
-            "value": "单总线支持多达 256 个收发器节点",
-            "valueEn": "Up to 256 transceiver nodes per bus"
+            "value": "半双工",
+            "valueEn": "Half duplex"
+          },
+          {
+            "key": {
+              "zh": "封装",
+              "en": "Package"
+            },
+            "value": "SOP8 / MSOP8",
+            "valueEn": "SOP8 / MSOP8"
+          }
+        ],
+        "documents": [
+          {
+            "title": "XJ485 规格书",
+            "titleEn": "XJ485 datasheet",
+            "url": "/documents/xj485-datasheet.pdf",
+            "language": "中文 / Chinese",
+            "revision": "",
+            "bytes": 1583081,
+            "sha256": "5ee9b9fc71d91869965e4c0e915e4635f31b20c00a6e2102f070b77a0d8d8d53",
+            "sourceFile": "XJ485-SIMACITY.pdf",
+            "checkedAt": "2026-11-05"
+          }
+        ],
+        "sourceRows": "自研 81–93",
+        "specNotice": false,
+        "category": "protection",
+        "sourceUrl": "https://www.simacity.com/Home/MyProductsDetail?id=7",
+        "parameterSource": "datasheet"
+      },
+      {
+        "id": "xjdm20w2b",
+        "name": "XJDM20w2B 温湿度传感器模块",
+        "nameEn": "XJDM20w2B temperature & humidity module",
+        "description": {
+          "zh": "集成 ARM MCU 与数字温湿度传感器，通过 UART 传输测量数据和控制指令；带防尘保护膜与内置加热器，可用于防结露场景。对应技术文档型号为 XJ-JM-GD-GXHT-V1.1。",
+          "en": "Integrates an ARM MCU and digital temperature/humidity sensor with UART data and commands, a dust-protection membrane and a built-in heater for condensation prevention. Corresponding document model: XJ-JM-GD-GXHT-V1.1."
+        },
+        "image": "/products/xjdm20w2b.jpeg",
+        "specs": [
+          {
+            "key": {
+              "zh": "通信接口",
+              "en": "Interface"
+            },
+            "value": "UART（TX / RX）",
+            "valueEn": "UART (TX / RX)"
           },
           {
             "key": {
               "zh": "工作温度",
               "en": "Operating temperature"
             },
-            "value": "工业级 -40℃~+85℃",
-            "valueEn": "Industrial: −40 to +85 °C"
+            "value": "−40～+85 °C",
+            "valueEn": "−40 to +85 °C"
           },
           {
             "key": {
-              "zh": "保护能力",
-              "en": "Protection"
+              "zh": "湿度测量范围",
+              "en": "Humidity range"
             },
-            "value": "A/B 引脚 ±4kV ESD 防护；驱动器短路限流 + 热关断双重保护",
-            "valueEn": "A/B pins: ±4 kV ESD; driver short-circuit limiting and thermal shutdown"
+            "value": "0～100% RH",
+            "valueEn": "0–100% RH"
           },
           {
             "key": {
-              "zh": "接收特性",
-              "en": "Receiver features"
+              "zh": "典型供电 / 数据电平",
+              "en": "Typical supply / logic level"
             },
-            "value": "输入失效保护，开路自动输出高电平；差分阈值 ±200mV",
-            "valueEn": "Fail-safe input; high output on open circuit; ±200 mV differential threshold"
+            "value": "3.3 V / 5.0 V",
+            "valueEn": "3.3 V / 5.0 V"
           },
           {
             "key": {
-              "zh": "功耗水平",
-              "en": "Power consumption"
+              "zh": "温度典型精度",
+              "en": "Typical temperature accuracy"
             },
-            "value": "无负载典型 1.1~1.2mA，低功耗设计",
-            "valueEn": "1.1–1.2 mA typical, no load"
+            "value": "±0.2 °C（0～+65 °C）",
+            "valueEn": "±0.2 °C (0 to +65 °C)"
           },
           {
             "key": {
-              "zh": "封装形式",
-              "en": "Package"
+              "zh": "湿度典型精度",
+              "en": "Typical humidity accuracy"
             },
-            "value": "SOP8 / MSOP8 标准小体积封装",
-            "valueEn": "SOP8 / MSOP8"
+            "value": "±2% RH（10～90% RH，25 °C）",
+            "valueEn": "±2% RH (10–90% RH at 25 °C)"
           },
           {
             "key": {
-              "zh": "控制接口",
-              "en": "Control interface"
+              "zh": "测量 / 加热电流上限",
+              "en": "Measurement / heating current limits"
             },
-            "value": "独立 DE 发送使能、RE 接收使能，三态输出",
-            "valueEn": "Independent DE and RE enables; tri-state output"
+            "value": "5 mA / 70 mA（手册电学特性表）",
+            "valueEn": "5 mA / 70 mA (datasheet electrical table)"
           }
         ],
-        "documents": [],
-        "sourceRows": "自研 81–93",
-        "specNotice": false,
-        "category": "connectivity",
-        "sourceUrl": "https://www.simacity.com/Home/MyProductsDetail?id=7"
-      },
-      {
-        "id": "xjdm20w2b",
-        "name": "XJDM20w2B",
-        "nameEn": "XJDM20w2B",
-        "description": {
-          "zh": "产品介绍与规格参数待补充。",
-          "en": "Product photo supplied; specifications and description pending."
-        },
-        "image": "/products/xjdm20w2b.jpeg",
-        "specs": [],
-        "documents": [],
+        "documents": [
+          {
+            "title": "XJDM20w2B 对应手册 · XJ-JM-GD-GXHT-V1.1",
+            "titleEn": "XJDM20w2B reference datasheet · XJ-JM-GD-GXHT-V1.1",
+            "url": "/documents/xjdm20w2b-datasheet.pdf",
+            "language": "中文 / Chinese",
+            "revision": "封面 V1.0 / 正文 V1.1",
+            "sourceFile": "XJ-JM-GD-GXHT-V1.1温湿度传感器模块.pdf",
+            "modelMapping": "User-confirmed: XJDM20w2B = XJ-JM-GD-GXHT-V1.1",
+            "bytes": 811997,
+            "sha256": "7a5e5c5e1d77b78c297ea2a077be652714d6fa343d55a8fbc00141c72865ce0d",
+            "checkedAt": "2026-11-05"
+          }
+        ],
         "sourceRows": "自研 94–96",
         "specNotice": false,
         "category": "sensing",
-        "sourceUrl": "https://www.simacity.com/Home/MyProductsDetail?id=8"
+        "sourceUrl": "https://www.simacity.com/Home/MyProductsDetail?id=8",
+        "parameterSource": "datasheet"
       },
       {
         "id": "probe",
@@ -1559,14 +1592,48 @@ export const brands = [
     "resources": [],
     "categories": [
       "sensing",
-      "analog",
       "power",
-      "connectivity"
+      "protection"
+    ],
+    "documents": [
+      {
+        "title": "MD2689 规格书",
+        "titleEn": "MD2689 datasheet",
+        "url": "/documents/md2689-datasheet.pdf",
+        "language": "中文 / Chinese",
+        "revision": "",
+        "bytes": 238786,
+        "sha256": "29e6407de69726749605c353855eb374e9f6c0efdac5d0050ea0d50567953d98",
+        "sourceFile": "MD2689-SIMACITY.pdf",
+        "checkedAt": "2026-11-05"
+      },
+      {
+        "title": "XJ1302 规格书",
+        "titleEn": "XJ1302 datasheet",
+        "url": "/documents/xj1302-datasheet.pdf",
+        "language": "中文 / Chinese",
+        "revision": "",
+        "bytes": 919405,
+        "sha256": "ee3a043eef396e21c391d27c0fd4d15278fdd4253914c4c67acdf2944f04ac7a",
+        "sourceFile": "XJ1302-SIMACITY.pdf",
+        "checkedAt": "2026-11-05"
+      },
+      {
+        "title": "产品线信息卡（2020 年历史版本）",
+        "titleEn": "Product line card (2020 archive)",
+        "url": "/documents/simacity-line-card.pdf",
+        "language": "中文 / Chinese",
+        "revision": "Revision 6.12 · May 2020",
+        "bytes": 116626,
+        "sha256": "c278bbfc16bbf53f13a218c7ad89505db4cfa17aec1787d983a39496a60e1a39",
+        "sourceFile": "产品信息卡-芯聚电子  Revision 6.12.pdf",
+        "checkedAt": "2026-11-05"
+      }
     ]
   },
   {
     "id": "sgmicro",
-    "category": "analog",
+    "category": "sensing",
     "name": "圣邦微",
     "aliases": "圣邦微",
     "description": {
@@ -1579,7 +1646,7 @@ export const brands = [
     },
     "products": [],
     "source": "原版",
-    "logo": "/brands/sgmicro.png",
+    "logo": "/brands/sgmicro.jpg",
     "families": [
       {
         "zh": "放大器",
@@ -1778,15 +1845,12 @@ export const brands = [
       }
     ],
     "categories": [
-      "analog",
-      "power",
-      "sensing",
-      "connectivity"
+      "sensing"
     ]
   },
   {
     "id": "chipsea",
-    "category": "analog",
+    "category": "sensing",
     "name": "芯海科技",
     "aliases": "芯海科技",
     "description": {
@@ -1799,7 +1863,7 @@ export const brands = [
     },
     "products": [],
     "source": "原版",
-    "logo": "/brands/chipsea.png",
+    "logo": "/brands/chipsea.jpg",
     "families": [
       {
         "zh": "传感器调理芯片",
@@ -1828,7 +1892,7 @@ export const brands = [
     "resources": [],
     "sources": [],
     "categories": [
-      "analog"
+      "sensing"
     ]
   },
   {
@@ -1957,7 +2021,7 @@ export const brands = [
     },
     "products": [],
     "source": "原版",
-    "logo": "/brands/crm.png",
+    "logo": "/brands/crm.jpg",
     "families": [
       {
         "zh": "功率器件",
@@ -2029,10 +2093,7 @@ export const brands = [
       }
     ],
     "categories": [
-      "power",
-      "sensing",
-      "control",
-      "analog"
+      "power"
     ]
   },
   {
@@ -2116,8 +2177,7 @@ export const brands = [
       }
     ],
     "categories": [
-      "protection",
-      "sensing"
+      "protection"
     ]
   },
   {
@@ -2263,7 +2323,7 @@ export const brands = [
   },
   {
     "id": "pulin",
-    "category": "analog",
+    "category": "control",
     "name": "普林芯驰",
     "aliases": "普林芯驰",
     "description": {
@@ -2295,7 +2355,7 @@ export const brands = [
     "resources": [],
     "sources": [],
     "categories": [
-      "analog"
+      "control"
     ]
   },
   {
@@ -2313,7 +2373,7 @@ export const brands = [
     },
     "products": [],
     "source": "原版",
-    "logo": "/brands/memsensing.png",
+    "logo": "/brands/memsensing.jpg",
     "families": [
       {
         "zh": "MEMS 声学传感器",
@@ -2485,9 +2545,7 @@ export const brands = [
       }
     ],
     "categories": [
-      "power",
-      "protection",
-      "analog"
+      "power"
     ]
   },
   {
@@ -2546,7 +2604,7 @@ export const brands = [
     },
     "products": [],
     "source": "原版",
-    "logo": "/brands/eta.png",
+    "logo": "/brands/eta.jpg",
     "families": [
       {
         "zh": "DC/DC 与 AC/DC",
@@ -2976,7 +3034,7 @@ export const brands = [
   },
   {
     "id": "wuqi",
-    "category": "connectivity",
+    "category": "control",
     "name": "物奇",
     "aliases": "物奇",
     "description": {
@@ -3012,12 +3070,12 @@ export const brands = [
     "resources": [],
     "sources": [],
     "categories": [
-      "connectivity"
+      "control"
     ]
   },
   {
     "id": "shengjia",
-    "category": "analog",
+    "category": "control",
     "name": "声加",
     "aliases": "声加",
     "description": {
@@ -3061,7 +3119,7 @@ export const brands = [
     "resources": [],
     "sources": [],
     "categories": [
-      "analog"
+      "control"
     ]
   },
   {
@@ -3079,7 +3137,7 @@ export const brands = [
     },
     "products": [],
     "source": "原版",
-    "logo": "/brands/orientchip.png",
+    "logo": "/brands/orientchip.jpg",
     "families": [
       {
         "zh": "传感器",
@@ -3107,7 +3165,7 @@ export const brands = [
   },
   {
     "id": "odu",
-    "category": "connectivity",
+    "category": "protection",
     "name": "欧度 / ODU",
     "aliases": "欧度（ODU)",
     "description": {
@@ -3143,12 +3201,12 @@ export const brands = [
     "resources": [],
     "sources": [],
     "categories": [
-      "connectivity"
+      "protection"
     ]
   },
   {
     "id": "keteling",
-    "category": "connectivity",
+    "category": "protection",
     "name": "科特翎",
     "aliases": "科特翎",
     "description": {
@@ -3188,12 +3246,12 @@ export const brands = [
     "resources": [],
     "sources": [],
     "categories": [
-      "connectivity"
+      "protection"
     ]
   },
   {
     "id": "xingweifan",
-    "category": "frequency",
+    "category": "sensing",
     "name": "兴威帆",
     "aliases": "兴威帆",
     "description": {
@@ -3233,7 +3291,7 @@ export const brands = [
     "resources": [],
     "sources": [],
     "categories": [
-      "frequency"
+      "sensing"
     ]
   },
   {
@@ -3271,7 +3329,7 @@ export const brands = [
   },
   {
     "id": "utc",
-    "category": "analog",
+    "category": "power",
     "name": "友顺 / UTC",
     "aliases": "友顺（UTC)",
     "description": {
@@ -3284,7 +3342,7 @@ export const brands = [
     },
     "products": [],
     "source": "原版",
-    "logo": "/brands/utc.png",
+    "logo": "/brands/utc.jpg",
     "families": [
       {
         "zh": "电源管理",
@@ -3325,7 +3383,7 @@ export const brands = [
     "resources": [],
     "sources": [],
     "categories": [
-      "analog"
+      "power"
     ]
   },
   {
@@ -3359,7 +3417,7 @@ export const brands = [
   },
   {
     "id": "lingya",
-    "category": "connectivity",
+    "category": "protection",
     "name": "领亚智能",
     "aliases": "领亚智能",
     "description": {
@@ -3403,7 +3461,7 @@ export const brands = [
     "resources": [],
     "sources": [],
     "categories": [
-      "connectivity"
+      "protection"
     ]
   },
   {
@@ -3421,7 +3479,7 @@ export const brands = [
     },
     "products": [],
     "source": "原版",
-    "logo": "/brands/panej.png",
+    "logo": "/brands/panej.jpg",
     "families": [
       {
         "zh": "碳化硅二极管",
@@ -3450,7 +3508,7 @@ export const brands = [
   {
     "id": "sct",
     "category": "power",
-    "name": "芯洲",
+    "name": "芯洲科技",
     "aliases": "芯洲",
     "description": {
       "zh": "开关电源，功率控制，线性电源，PMIC，功率接口，功率模块",
@@ -3588,10 +3646,7 @@ export const brands = [
     ],
     "manufacturerReview": "reviewed-dedicated-site",
     "categories": [
-      "sensing",
-      "analog",
-      "connectivity",
-      "control"
+      "sensing"
     ]
   },
   {
@@ -3714,13 +3769,12 @@ export const brands = [
       }
     ],
     "categories": [
-      "control",
-      "analog"
+      "control"
     ]
   },
   {
     "id": "zhixin",
-    "category": "control",
+    "category": "sensing",
     "name": "智芯微",
     "aliases": "智芯微",
     "description": {
@@ -3760,12 +3814,12 @@ export const brands = [
     "resources": [],
     "sources": [],
     "categories": [
-      "control"
+      "sensing"
     ]
   },
   {
     "id": "unitedimaging",
-    "category": "analog",
+    "category": "sensing",
     "name": "联影微电子",
     "aliases": "联影微",
     "description": {
@@ -3805,12 +3859,12 @@ export const brands = [
     "resources": [],
     "sources": [],
     "categories": [
-      "analog"
+      "sensing"
     ]
   },
   {
     "id": "guliang",
-    "category": "control",
+    "category": "sensing",
     "name": "毂梁微",
     "aliases": "毂梁微",
     "description": {
@@ -3834,13 +3888,13 @@ export const brands = [
     "resources": [],
     "sources": [],
     "categories": [
-      "control"
+      "sensing"
     ]
   },
   {
     "id": "donghua",
-    "category": "power",
-    "name": "东华电力",
+    "category": "protection",
+    "name": "东华电力电子",
     "aliases": "东华电力",
     "description": {
       "zh": "晶闸管、整流管、超快恢复二极管、桥臂模块、单相和三相工频整流桥模块，IGBT单管、MDST组合模块以及IPM智能功率模块等",
@@ -3883,13 +3937,13 @@ export const brands = [
     "resources": [],
     "sources": [],
     "categories": [
-      "power"
+      "protection"
     ]
   },
   {
     "id": "yuantuo",
     "name": "源拓光电",
-    "category": "connectivity",
+    "category": "optical",
     "description": {
       "zh": "专注光通信设备与光纤器件，提供光模块、波分复用设备及光传输系统方案。\n\n产品具备高兼容性与稳定性，支持多场景部署。\n\n应用于 5G 通信、数据中心及安防监控等领域。",
       "en": "Optical communication equipment, optical modules and fiber transmission solutions."
@@ -3900,7 +3954,7 @@ export const brands = [
     },
     "products": [],
     "source": "1",
-    "logo": "/brands/yuantuo.png",
+    "logo": "/brands/yuantuo.jpg",
     "families": [
       {
         "zh": "光模块",
@@ -3919,13 +3973,13 @@ export const brands = [
     "resources": [],
     "sources": [],
     "categories": [
-      "connectivity"
+      "optical"
     ]
   },
   {
     "id": "meig",
     "name": "美格",
-    "category": "connectivity",
+    "category": "control",
     "description": {
       "zh": "专注无线通信模组与智能连接方案，提供 5G/4G 模组、算力模组及物联网解决方案。\n\n产品具备高集成度与高性能算力优势。\n\n广泛应用于车联网、工业物联网及智能终端设备，实现高效数据连接与处理。",
       "en": "5G/4G modules, computing modules and IoT connectivity solutions."
@@ -3955,7 +4009,7 @@ export const brands = [
     "resources": [],
     "sources": [],
     "categories": [
-      "connectivity"
+      "control"
     ]
   },
   {
@@ -4003,7 +4057,7 @@ export const brands = [
   },
   {
     "id": "gongmo",
-    "category": "analog",
+    "category": "sensing",
     "name": "共模半导体",
     "aliases": "共模",
     "description": {
@@ -4077,8 +4131,29 @@ export const brands = [
     ],
     "manufacturerReview": "reviewed-dedicated-site",
     "categories": [
-      "power",
-      "analog"
+      "sensing"
+    ],
+    "logo": "/brands/gongmo.png"
+  },
+  {
+    "id": "anda",
+    "name": "岸达",
+    "aliases": "岸达",
+    "category": "control",
+    "lineType": "partner",
+    "description": {
+      "zh": "按用户最新产品线清单收录于存储・MCU・无线方向，具体型号资料待补充。",
+      "en": "Included in memory, MCU and wireless selection per the supplied product-line list. Model documentation is pending."
+    },
+    "applications": {
+      "zh": "具体应用与型号请联系选型支持核对。",
+      "en": "Contact selection support to confirm models and applications."
+    },
+    "products": [],
+    "families": [],
+    "source": "用户本轮产品分类清单",
+    "categories": [
+      "control"
     ]
   }
 ];

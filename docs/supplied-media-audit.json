@@ -1,0 +1,22 @@
+[
+  {
+    "source": "芯聚网站zip/芯聚logo.jpg",
+    "file": "/media/company-logo.jpg",
+    "sha256": "fccde35f14cf217efe77af57b7189e66bcfaa03dd7269b630fc02496c6cb5f0b"
+  },
+  {
+    "source": "芯聚网站zip/企业微信二维码.jpg",
+    "file": "/media/wecom-qr.jpg",
+    "sha256": "aae3ac241959859b4e22e3136750a846053d580c565c2da3aeda074d6053048d"
+  },
+  {
+    "source": "芯聚网站zip/微信公众号二维码.jpg",
+    "file": "/media/wechat-qr.jpg",
+    "sha256": "70547f8d4a90ee4a449e594e0296e3bcb362626bf2f17b14c1646499103e8197"
+  },
+  {
+    "source": "芯聚网站zip/网站背景图.jpg",
+    "file": "/media/hero-background.jpg",
+    "sha256": "969bb5cb85246b7589f5c62d8ffc1d2cab40fc3f5ac334709309e6d2082956a1"
+  }
+]

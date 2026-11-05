@@ -4,7 +4,7 @@ import { spawn } from 'node:child_process';
 import { once } from 'node:events';
 import { brands } from '../src/catalog.js';
 import { createHash } from 'node:crypto';
-import { siteMedia } from '../src/content.js';
+import { siteMedia, categories, solutions } from '../src/content.js';
 let server, base;
 before(async()=>{
   server=spawn(process.execPath,['scripts/server.mjs'],{cwd:new URL('..',import.meta.url),env:{...process.env,PORT:'0'},stdio:['ignore','pipe','pipe']});
@@ -18,7 +18,7 @@ test('private files and unknown assets are not exposed',async()=>{for(const path
 test('catalog links are unique and self-developed technical records are localized',()=>{assert.equal(new Set(brands.map(b=>b.id)).size,brands.length);assert.ok(brands.length>50);const products=brands.find(b=>b.id==='simacity').products;assert.equal(products.length,8);for(const p of products){assert.ok(p.nameEn);assert.ok(p.description.en);for(const sp of p.specs){assert.ok(sp.key.en);assert.ok(sp.valueEn);}}const audio=products.find(p=>p.id==='yt3110');assert.equal(audio.specNotice,false);assert.ok(audio.specs.some(s=>s.value.includes('THD = 10%')),'Output-power conditions must accompany the 15 W rating');assert.ok(!audio.specs.some(s=>/LUT|ADC|FPGA/.test(s.key.en+' '+s.value)));assert.equal(audio.documents.length,1);});
 
 test('official datasheets serve intact PDFs in development and built output',async()=>{
- const docs=brands.flatMap(b=>b.products.flatMap(p=>p.documents||[]));assert.equal(docs.length,5);
+ const docs=brands.flatMap(b=>[...b.products.flatMap(p=>p.documents||[]),...(b.documents||[])]);assert.equal(docs.length,10);
  for(const doc of docs){
   assert.match(doc.url,/^\/documents\/[a-z0-9_-]+\.pdf$/);
   const response=await fetch(base+doc.url);assert.equal(response.status,200,doc.url);assert.equal(response.headers.get('content-type'),'application/pdf');
@@ -30,4 +30,21 @@ test('manufacturer resource links have bilingual titles and traceable public sou
  for(const b of brands){for(const r of b.resources||[]){assert.match(r.url,/^https:\/\//);assert.ok(r.title.zh&&r.title.en);assert.ok(b.sources.length>0);assert.ok(!/[?&](access_token|token|sig)=/.test(r.url),'Use a stable index instead of a signed download URL');}}
  assert.equal(brands.find(b=>b.id==='biwin').manufacturerUrl,'https://www.biwin.com.cn/');
  assert.ok(brands.find(b=>b.id==='gigadevice').families.some(f=>f.en.includes('EEPROM')));
+});
+
+test('six product categories and six solutions share a complete consistent catalog',()=>{
+ assert.equal(categories.length,6);assert.equal(solutions.length,6);
+ const ids=new Set(categories.map(c=>c.id));
+ for(const c of categories){assert.ok(c.brandIds.length);for(const id of c.brandIds){const b=brands.find(b=>b.id===id);assert.ok(b,id);assert.ok(b.categories.includes(c.id),id);}}
+ for(const b of brands.filter(b=>b.lineType==='partner'))assert.ok(ids.has(b.category),b.id);
+ for(const solution of solutions)for(const p of solution.products||[])assert.ok(p.brand?brands.some(b=>b.id===p.brand):brands.find(b=>b.id==='simacity').products.some(x=>x.id===p.id));
+ const own=brands.find(b=>b.id==='simacity');assert.equal(own.products.find(p=>p.id==='xj485').documents.length,1);
+ assert.ok(own.documents.some(d=>d.url.includes('xj1302')));assert.ok(own.documents.some(d=>d.url.includes('md2689')));
+});
+
+test('XJDM20w2B uses its supplied UART module datasheet',()=>{
+ const p=brands.find(b=>b.id==='simacity').products.find(p=>p.id==='xjdm20w2b');
+ assert.equal(p.documents.length,1);assert.match(p.documents[0].sourceFile,/XJ-JM-GD-GXHT/);
+ assert.ok(p.specs.some(s=>s.value.includes('UART')));
+ assert.ok(p.specs.some(s=>s.value.includes('0～+65')));
 });
