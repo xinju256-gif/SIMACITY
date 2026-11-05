@@ -1,0 +1,47 @@
+[
+  {
+    "id": "xjdm2",
+    "url": "https://www.simacity.com/Public/20260407/5f202e33-5dfa-38b7-48ab-4e9dff2531ab/25651_XJDM2%E9%99%A4%E6%B9%BF%E5%99%A8%E4%BC%A0%E6%84%9F%E5%99%A8%E6%A8%A1%E5%9D%97.pdf",
+    "status": "200",
+    "error": "",
+    "bytes": 1355327,
+    "sha256": "20c5179e16ac8cd18ffd7a2956d79de2c3f33be4ab55c9cfa83f2eae73c09ea0",
+    "localPath": "/documents/xjdm2-datasheet.pdf"
+  },
+  {
+    "id": "xjdm11",
+    "url": "https://www.simacity.com/Public/20260407/d4007e64-5388-555c-124c-3052cb332b5f/97036_XJDM11%E6%B8%A9%E6%B9%BF%E5%BA%A6%E4%BC%A0%E6%84%9F%E5%99%A8%E6%A8%A1%E5%9D%97.pdf",
+    "status": "200",
+    "error": "",
+    "bytes": 1255579,
+    "sha256": "f22c88772becbb045d7fe1198b1f4ab6c549364333d8c8ac9b1cead7e3d98936",
+    "localPath": "/documents/xjdm11-datasheet.pdf"
+  },
+  {
+    "id": "m2202",
+    "url": "https://www.simacity.com/Public/20260407/99a6b03e-35ec-0cdd-20b8-8a4cffaaf5e1/56636_%E4%B8%A4%E9%80%9A%E9%81%93%E6%B7%B7%E5%90%88%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86SIP%E7%94%B5%E8%B7%AFM2202.pdf",
+    "status": "200",
+    "error": "",
+    "bytes": 6880421,
+    "sha256": "14ede092c4195d84338c717ca60909547cf0bc3eac666a074644c3dacef4bcdd",
+    "localPath": "/documents/m2202-datasheet.pdf"
+  },
+  {
+    "id": "yt3110",
+    "url": "https://www.simacity.com/Public/20260409/93922558-abed-941c-bb11-d891a4525f5b/59143_YT3110-SIMACITY.pdf",
+    "status": "200",
+    "error": "",
+    "bytes": 3105419,
+    "sha256": "032c3368132a698d075b8348ec346b374df1fad20092047cecf67916012b040f",
+    "localPath": "/documents/yt3110-datasheet.pdf"
+  },
+  {
+    "id": "md2686",
+    "url": "https://www.simacity.com/Public/20260409/9c25dd82-3385-7e26-862f-a473b77bbee4/34580_MD2686-SIMACITY.pdf",
+    "status": "200",
+    "error": "",
+    "bytes": 356724,
+    "sha256": "52c9ddda988aa9f939462d78b8e441c2bd1ac7856a0a5a27f560f37497fb35ed",
+    "localPath": "/documents/md2686-datasheet.pdf"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "simacity-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/server.mjs",
+    "start": "node scripts/server.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test scripts/site.test.mjs",
+    "test:e2e": "node scripts/smoke.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
