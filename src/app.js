@@ -7,6 +7,7 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;',
 const arrow = '<span class="link-arrow" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><path d="M5 15 15 5M5 5h10v10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>';
 const routes = [['/', ['首页','Home']],['/products',['产品中心','Products']],['/solutions',['解决方案','Solutions']],['/contact',['联系我们','Contact']],['/news',['新闻中心','Insights']]];
 const link = (path,label,cls='') => `<a href="${path}" data-link class="${cls}" ${cls==='active'?'aria-current="page"':''}>${label}</a>`;
+const externalBrandIds = new Set(['firecomms','sitime','gongmo','taitien','galaxy']);
 function graphic(type='sensor') {
  const images={sensor:['/products/xjdm11.png','XJDM11'],chip:['/products/m2202.jpeg','M2202'],connector:['/products/xj485.jpeg','XJ485'],power:['/products/md2686.jpeg','MD2686'],frequency:['/brands/sitime.png','SiTime']};
  const brand=brands.find(b=>b.id===type);const [src,label]=images[type]||(brand?.logo?[brand.logo,brand.name]:images.sensor);
@@ -32,7 +33,10 @@ function home(){return `<section class="hero"><div class="container hero-grid"><
 <section class="container cta"><div><div class="eyebrow">LET’S FIND YOUR ANSWER</div><h2>${t('有具体需求？从这里开始。','Have a project in mind? Start here.')}</h2><p>${t('告诉我们应用场景与关键参数，让沟通更高效。','Share your application and key requirements for a focused discussion.')}</p></div>${link('/contact',t('填写选型需求','Build your selection brief')+arrow,'button button-accent')}</section>`;}
 function articleCard(a,i){return link('/news/'+a.id,`<div class="article-art">${graphic(i===0?'sensor':i===1?'chip':'power')}</div><div class="article-meta">${pair(a.category)} <span>· ${a.minutes} ${t('分钟阅读','min read')}</span></div><h3>${pair(a.title)}</h3><p>${pair(a.summary)}</p><span class="article-read">${t('阅读文章','Read article')} →</span>`,'article-card');}
 function pageHero(kicker,title,desc){return `<section class="page-hero"><div class="container"><div class="breadcrumbs">${link('/',t('首页','Home'))}<span>/</span><span>${title}</span></div><div class="eyebrow">${kicker}</div><h1>${title}</h1><p>${desc}</p></div></section>`;}
-function brandEntry(brand,label,cls='') { return link('/products/'+brand.id,label,cls); }
+function brandEntry(brand,label,cls='') {
+  if (brand && externalBrandIds.has(brand.id) && brand.siteUrl) return `<a href="${esc(brand.siteUrl)}" class="${cls}" target="_blank" rel="noopener noreferrer">${label}</a>`;
+  return link('/products/'+brand.id,label,cls);
+}
 function productSearchState(){
   const params=new URLSearchParams(location.search);
   return {category:params.get('category')||'all',query:params.get('q')||'',view:params.get('view')||'all'};

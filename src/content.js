@@ -13,7 +13,7 @@ export const company = {
 // Populate these paths with the actual supplied image files; do not synthesize QR codes.
 export const siteMedia = {
  logo: '/media/company-logo.jpg',
- heroImage: '/media/hero-background.jpg', // Supplied original, 3238 × 1295 pixels
+ heroImage: '/media/hero-background.webp', // WebP derivative of the supplied 3238 × 1295 original
  wechatQR: '/media/wechat-qr.jpg',
  wecomQR: '/media/wecom-qr.jpg'
 };

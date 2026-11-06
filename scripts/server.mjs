@@ -12,7 +12,7 @@ const server = http.createServer(async (req,res) => {
     if(file !== root && !file.startsWith(root + sep)) { res.writeHead(403).end(); return; }
     // Only public site assets are exposed, never source-control or server files.
     if (/^\/(products|brands|media)\/[a-zA-Z0-9_-]+\.(png|jpe?g|webp)$/.test(path) || /^\/documents\/[a-zA-Z0-9_-]+\.pdf$/.test(path)) {file = resolve(root, process.env.SERVE_DIST === '1' ? '.'+path : 'public'+path);}
-    else if (path !== '/' && !/^\/(src\/(app|content|catalog)\.js|src\/styles\.css|favicon\.svg|index\.html)$/.test(path)) {
+    else if (path !== '/' && !/^\/(src\/(app|content|catalog)\.js|src\/styles\.css|src\/performance\.css|favicon\.svg|index\.html)$/.test(path)) {
       if (extname(path)) {res.writeHead(404).end('Not found');return;}
       file = resolve(root, 'index.html');
     }

@@ -10,16 +10,17 @@ try {
  await page.goto(base);
  assert.equal(await page.locator('html').getAttribute('lang'),'zh-CN');assert.equal(await page.locator('.explorer-card').count(),6);assert.ok(await page.locator('.own-product-strip').evaluate(el=>Boolean(el.compareDocumentPosition(document.querySelector('.explorer-grid')) & Node.DOCUMENT_POSITION_FOLLOWING)));assert.equal(await page.locator('.solution-list .solution-row').count(),6);
  assert.deepEqual(await page.locator('.navigation a').allTextContents(),['首页','产品中心','解决方案','联系我们','新闻中心']);
- for(const id of ['firecomms','sitime','galaxy','taitien','gongmo']){const entry=page.locator(`.featured-brands a[href="/products/${id}"]`);assert.equal(await entry.count(),1);assert.equal(await entry.getAttribute('target'),null);}
+ const externalBrands={firecomms:'https://firecomms-cn.com/',sitime:'https://sitime-cn.com/',gongmo:'https://gongmo-cn.com/',taitien:'https://taitien-cn.com/',galaxy:'https://gxcas-cn.com/'};
+ for(const [id,url] of Object.entries(externalBrands)){const entry=page.locator(`.featured-brands a[href="${url}"]`);assert.equal(await entry.count(),1,id);assert.equal(await entry.getAttribute('target'),'_blank');}
  for(const image of await page.locator('.company-logo,.qr-frame img').all()){await image.scrollIntoViewIfNeeded();await image.evaluate(img=>img.decode());}
- const heroImage=await page.locator('.hero').evaluate(e=>getComputedStyle(e).backgroundImage);assert.match(heroImage,/hero-background.jpg/);
+ const heroImage=await page.locator('.hero').evaluate(e=>getComputedStyle(e).backgroundImage);assert.match(heroImage,/hero-background.webp/);
  await page.evaluate(()=>scrollTo(0,0));
  await page.screenshot({path:'artifacts/home-desktop.png',fullPage:true});
  await page.locator('.navigation a[href="/products"]').click();assert.equal(await page.locator('.brand-card').count(),55);
  await page.locator('[data-view=inhouse]').click();assert.equal(await page.locator('.inhouse-card').count(),8);
  await page.locator('[data-category=sensing]').click();assert.equal(await page.locator('.inhouse-card').count(),5);
  await page.locator('[data-category=all]').click();await page.locator('[data-view=partner]').click();assert.equal(await page.locator('.brand-card').count(),54);
- for(const id of ['firecomms','sitime','galaxy','taitien','gongmo'])assert.equal(await page.locator(`.brand-card[href="/products/${id}"]`).count(),1);
+ for(const [id,url] of Object.entries(externalBrands)){const entry=page.locator(`.brand-card[href="${url}"]`);assert.equal(await entry.count(),1,id);assert.equal(await entry.getAttribute('target'),'_blank');}
  await page.locator('.brand-card[href="/products/gigadevice"]').click();assert.equal(await page.locator('.family-card').count(),6);
  assert.equal(await page.locator('main a[href^="https://"]').count(),0);
  await page.locator('.family-card').first().click();assert.match(page.url(),/family=0/);assert.match(await page.locator('h1').textContent(),/Flash/);await page.goto(base+'/products/gigadevice');
@@ -49,5 +50,5 @@ try {
  await page.locator('.menu-toggle').click();assert.equal(await page.locator('.menu-toggle').getAttribute('aria-expanded'),'true');await page.locator('.navigation a[href="/contact"]').click();assert.match(page.url(),/contact$/);assert.equal(await page.locator('.menu-toggle').getAttribute('aria-expanded'),'false');
  await page.goto(base+'/solutions');assert.equal(await page.locator('.customer-grid>div').count(),10);assert.equal(await page.locator('.customer-grid img').count(),10);for(const image of await page.locator('.customer-grid img').all()){await image.scrollIntoViewIfNeeded();await image.evaluate(img=>img.decode());assert.ok(await image.evaluate(img=>img.naturalWidth>0));}await page.goto(base+'/solutions/measurement');await page.locator('.solution-products a[href="/products/simacity#m2202"]').click();assert.match(page.url(),/products\/simacity#m2202$/);assert.ok(await page.locator('#m2202 .official-datasheet').count());await page.goto(base+'/news');assert.equal(await page.locator('.published-news a').getAttribute('href'),'https://www.simacity.com/Home/BlogDetail?id=1');
  await page.goto(base+'/not-a-page');assert.match(await page.locator('h1').textContent(),/未找到/);
- assert.deepEqual(errors,[]);console.log('PASS: navigation, 55 brands, 5 internal brand links, product-line tabs, brand overview downloads, search, 8 product images, 7 product PDFs and 3 supplemental PDFs, internal family resources, company details, downloads, bilingual persistence, required form validation, recipient, 56 responsive route checks, mobile menu and 404.');
+ assert.deepEqual(errors,[]);console.log('PASS: navigation, 55 brands, 5 external brand links, product-line tabs, brand overview downloads, search, 8 product images, 7 product PDFs and 3 supplemental PDFs, internal family resources, company details, downloads, bilingual persistence, required form validation, recipient, 56 responsive route checks, mobile menu and 404.');
 } finally {await browser.close();}

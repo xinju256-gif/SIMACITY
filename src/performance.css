@@ -1,0 +1,7 @@
+/* Keep the large supplied hero art off the critical CSS gradient path. */
+.hero {
+  background-image: url('/media/hero-background.webp'), radial-gradient(ellipse at 80% 90%, #123f75 0, transparent 58%), linear-gradient(115deg, #0a2b57 0%, #061b3a 55%, #04162f 100%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
