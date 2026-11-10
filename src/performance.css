@@ -32,6 +32,7 @@
   .research-product-copy h3 { font-size: 17px; }
 }
 @media (max-width: 600px) {
+  html[lang="zh-CN"] .hero h1 { font-size: clamp(29px, 8.4vw, 39px); }
   .research-product-grid { grid-template-columns: 1fr; }
   .research-product-card { flex-direction: row; min-height: 132px; }
   .research-product-image { width: 40%; height: auto; min-height: 132px; border-bottom: 0; border-right: 1px solid #e4ecf3; }
