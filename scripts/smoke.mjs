@@ -8,7 +8,7 @@ const base=process.env.SITE_URL||'http://127.0.0.1:3000';
 await mkdir('artifacts',{recursive:true});
 try {
  await page.goto(base);
- assert.equal(await page.locator('html').getAttribute('lang'),'zh-CN');assert.equal(await page.locator('.explorer-card').count(),6);assert.ok(await page.locator('.own-product-strip').evaluate(el=>Boolean(el.compareDocumentPosition(document.querySelector('.explorer-grid')) & Node.DOCUMENT_POSITION_FOLLOWING)));assert.equal(await page.locator('.solution-list .solution-row').count(),6);
+ assert.equal(await page.locator('html').getAttribute('lang'),'zh-CN');assert.equal(await page.locator('.research-product-card').count(),3);assert.equal(await page.locator('.explorer-card').count(),6);assert.ok(await page.locator('.research-showcase').evaluate(el=>Boolean(el.compareDocumentPosition(document.querySelector('.explorer-grid')) & Node.DOCUMENT_POSITION_FOLLOWING)));assert.equal(await page.locator('.solution-list .solution-row').count(),6);
  assert.deepEqual(await page.locator('.navigation a').allTextContents(),['首页','产品中心','解决方案','联系我们','新闻中心']);
  const externalBrands={firecomms:'https://firecomms-cn.com/',sitime:'https://sitime-cn.com/',gongmo:'https://gongmo-cn.com/',taitien:'https://taitien-cn.com/',galaxy:'https://gxcas-cn.com/'};
  for(const [id,url] of Object.entries(externalBrands)){const entry=page.locator(`.featured-brands a[href="${url}"]`);assert.equal(await entry.count(),1,id);assert.equal(await entry.getAttribute('target'),'_blank');}

@@ -5,3 +5,37 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.research-showcase { background: #eff5fb; padding: 76px 0 82px; }
+.research-intro { display: flex; justify-content: space-between; align-items: end; gap: 30px; margin-bottom: 28px; }
+.research-intro h2 { max-width: 650px; margin: 0 0 12px; font-size: clamp(28px, 3vw, 40px); }
+.research-intro p { max-width: 670px; margin: 0; font-size: 14px; }
+.research-intro .section-link { flex-shrink: 0; }
+.research-product-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.research-product-card { display: flex; flex-direction: column; border: 1px solid #dce5ef; background: #fff; transition: border-color .18s, transform .18s; }
+.research-product-card:hover { border-color: #8aaed0; transform: translateY(-3px); }
+.research-product-image { height: 220px; padding: 22px; border-bottom: 1px solid #e4ecf3; }
+.research-product-image img { width: 100%; height: 100%; object-fit: contain; }
+.research-product-copy { display: flex; flex-direction: column; flex: 1; padding: 22px; }
+.research-product-copy > span:first-child { color: #6b87a5; font-size: 10px; letter-spacing: 1px; }
+.research-product-copy h3 { font-size: 21px; margin: 8px 0 20px; }
+.research-product-action { color: #003270; font-size: 12px; margin-top: auto; }
+.product-explorer-section { padding-top: 66px; }
+.product-explorer-section .featured-brands { margin-top: 18px; }
+@media (max-width: 800px) {
+  .research-showcase { padding: 54px 0; }
+  .research-intro { display: block; }
+  .research-intro .section-link { margin-top: 22px; }
+  .research-product-grid { gap: 14px; }
+  .research-product-image { height: 165px; padding: 16px; }
+  .research-product-copy { padding: 17px; }
+  .research-product-copy h3 { font-size: 17px; }
+}
+@media (max-width: 600px) {
+  .research-product-grid { grid-template-columns: 1fr; }
+  .research-product-card { flex-direction: row; min-height: 132px; }
+  .research-product-image { width: 40%; height: auto; min-height: 132px; border-bottom: 0; border-right: 1px solid #e4ecf3; }
+  .research-product-copy { width: 60%; }
+  .research-product-copy h3 { font-size: 16px; margin-bottom: 8px; }
+  .product-explorer-section { padding-top: 44px; }
+}
