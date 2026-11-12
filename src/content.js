@@ -173,6 +173,15 @@ export const featuredBrands = [
 export const customers = [
  ['GE医疗','GE HealthCare','/brands/customer-ge.png'],['西门子医疗','Siemens Healthineers','/brands/customer-siemens.png'],['联影医疗','United Imaging','/brands/customer-unitedimaging.png'],['奕瑞科技','iRay Technology','/brands/customer-iray.png'],['大陆汽车','Continental','/brands/customer-continental.png'],['岚图汽车','VOYAH','/brands/customer-voyah.png'],['小鹏汽车','XPENG','/brands/customer-xpeng.png'],['航空电气','航空电气','/brands/customer-avic.png'],['祥生医疗','CHISON','/brands/customer-chison.png'],['丘钛科技','Q Technology','/brands/customer-qtech.png']
 ];
+export const cooperationPartners = [
+ { name:['海力士','SK hynix'], logo:'/brands/hynix.png' },
+ { name:['Silterra','Silterra'], logo:'/partners/silterra.png' },
+ { name:['凸版印刷','TOPPAN'], logo:'/partners/toppan.png' },
+ { name:['台湾光罩','TCE'], logo:'/partners/tce.png' },
+ { name:['长电科技','JCET'], logo:'/partners/jcet.png' },
+ { name:['合晶','Wafer Works'], logo:'/partners/wafer-works.png' },
+ { name:['环球晶圆日本','GlobalWafers Japan'], logo:'/partners/globalwafers-japan.png' }
+];
 export const publishedNews = [{
  title:['超140万亿！Token调用量激增，意味着什么？','What does the surge in daily AI token usage mean?'],
  date:'2026-03-26', url:'https://www.simacity.com/Home/BlogDetail?id=1',

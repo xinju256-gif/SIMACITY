@@ -22,7 +22,16 @@
 .research-product-action { color: #003270; font-size: 12px; margin-top: auto; }
 .product-explorer-section { padding-top: 66px; }
 .product-explorer-section .featured-brands { margin-top: 18px; }
+.cooperation-section { padding: 72px 0 82px; background: #f7fafd; border-block: 1px solid #dce5ef; }
+.cooperation-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.cooperation-card { min-width: 0; background: #fff; border: 1px solid #dce5ef; }
+.cooperation-mark { display: flex; align-items: center; justify-content: center; height: 112px; padding: 20px; }
+.cooperation-mark img { display: block; max-width: 100%; max-height: 74px; object-fit: contain; }
+.cooperation-name { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 67px; padding: 10px; border-top: 1px solid #e4ecf3; text-align: center; line-height: 1.4; }
+.cooperation-name strong { font-size: 13px; font-weight: 600; }
+.cooperation-name span { margin-top: 3px; color: #6b87a5; font-size: 11px; }
 @media (max-width: 800px) {
+  .cooperation-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .research-showcase { padding: 54px 0; }
   .research-intro { display: block; }
   .research-intro .section-link { margin-top: 22px; }
@@ -32,6 +41,11 @@
   .research-product-copy h3 { font-size: 17px; }
 }
 @media (max-width: 600px) {
+  .cooperation-section { padding: 52px 0; }
+  .cooperation-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .cooperation-mark { height: 88px; padding: 14px; }
+  .cooperation-mark img { max-height: 58px; }
+  .cooperation-name { min-height: 62px; }
   html[lang="zh-CN"] .hero h1 { font-size: clamp(29px, 8.4vw, 39px); }
   .research-product-grid { grid-template-columns: 1fr; }
   .research-product-card { flex-direction: row; min-height: 132px; }

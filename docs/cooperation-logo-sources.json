@@ -1,0 +1,44 @@
+[
+  {
+    "name": "海力士 SK hynix",
+    "source": "existing site asset",
+    "path": "public/brands/hynix.png",
+    "sha256": "c8ba8ca17d043d614549ec10ce5f96ef77e6b49d4357336d433a9f72a0fb08b9"
+  },
+  {
+    "name": "Silterra",
+    "source": "合作伙伴.zip / 合作伙伴/Silterra.png",
+    "path": "public/partners/silterra.png",
+    "sha256": "b0be2008383c24f9675010c86de7bbd2afa5c06687dfacaa8e440a5e6a90775a"
+  },
+  {
+    "name": "Toppan（凸版印刷）",
+    "source": "合作伙伴.zip / 合作伙伴/ Toppan（凸版印刷）.png",
+    "path": "public/partners/toppan.png",
+    "sha256": "c7d10f77c84c8e06b7305cf5efced10ee60027ea2bb50b593841cbbed9536c13"
+  },
+  {
+    "name": "台湾光罩 TCE",
+    "source": "合作伙伴.zip / 合作伙伴/台湾光罩 TCE.png",
+    "path": "public/partners/tce.png",
+    "sha256": "a0c596b1cb665f8c6cbf4410ad6926681aa4bbaee5396466bf3d13ded45312e6"
+  },
+  {
+    "name": "长电科技 JCET",
+    "source": "合作伙伴.zip / 合作伙伴/长电科技 JCET.png",
+    "path": "public/partners/jcet.png",
+    "sha256": "c682e619fc3c30dfe87f925e9960e3d4e5d40f41404a6e0ee635ee129233cb26"
+  },
+  {
+    "name": "Wafer Works（合晶）",
+    "source": "合作伙伴.zip / 合作伙伴/Wafer Works（合晶）.png",
+    "path": "public/partners/wafer-works.png",
+    "sha256": "f42b86b139299ff3c6e706fc9cf03fb85a899533c7de30e0f522f190eb126955"
+  },
+  {
+    "name": "GlobalWafers Japan（环球晶圆日本）",
+    "source": "合作伙伴.zip / 合作伙伴/GlobalWafers Japan（环球晶圆日本）.png",
+    "path": "public/partners/globalwafers-japan.png",
+    "sha256": "eed809616440d2f28b6d80fe5030af241ff0aa941f31dc16d1181bb7270a6d84"
+  }
+]
